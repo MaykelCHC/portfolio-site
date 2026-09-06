@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maykel Chapman — Nexora Labs</title>
+<meta name="description" content="Portafolio de apps móviles con IA integrada — talleres, veterinarias, restaurantes, inmobiliarias y gimnasios.">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230B0D10'/%3E%3Cpath d='M30 65 L50 30 L70 65 M38 52 L62 52' stroke='%236C8CFF' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maykel Chapman — Nexora Labs">
+<meta property="og:description" content="Portafolio de apps móviles con IA integrada — talleres, veterinarias, restaurantes, inmobiliarias y gimnasios.">
+<meta property="og:locale" content="es_MX">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Maykel Chapman — Nexora Labs">
+<meta name="twitter:description" content="Portafolio de apps móviles con IA integrada.">
+<meta name="theme-color" content="#0B0D10">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="brand">Maykel Chapman <span>· Nexora Labs</span></div>
+  <div class="nav-links">
+    <a href="#taller">TallerIA</a>
+    <a href="#vetcare">VetCare</a>
+    <a href="#savory">Savory</a>
+    <a href="#homefind">HomeFind</a>
+    <a href="#flexfit">FlexFit</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <span class="eyebrow">Portafolio de apps con IA</span>
+  <h1 class="hero-name">Maykel Chapman</h1>
+  <p class="hero-company"><span>Nexora Labs</span> — Apps móviles con inteligencia artificial integrada</p>
+  <p class="hero-desc">
+    Diseño y desarrollo aplicaciones Flutter multiplataforma (iOS, Android, macOS y Windows)
+    con asistentes de IA que atienden clientes, resuelven dudas y generan citas o pedidos
+    de forma automática. Cinco industrias, un mismo motor.
+  </p>
+  <div class="hero-cta">
+    <a class="btn btn-primary" href="#taller">Ver proyectos</a>
+    <a class="btn btn-secondary" href="mailto:maykelchapmancardoso@gmail.com">Contactar</a>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat"><b>5</b><span>Apps completas</span></div>
+  <div class="stat"><b>4</b><span>Plataformas c/u</span></div>
+  <div class="stat"><b>100%</b><span>Con asistente IA</span></div>
+</div>
+
+<div class="section-title">
+  <h2>Cinco industrias, una misma promesa</h2>
+  <p>Cada app resuelve el mismo problema de fondo — atender, agendar y vender sin depender de una persona disponible 24/7 — adaptado a un rubro distinto.</p>
+</div>
+
+<!-- ===================== TALLERIA ===================== -->
+<section class="project" id="taller">
+  <div class="project-info">
+    <span class="tag" style="background:rgba(255,107,0,0.12); color:#FF6B00;">Taller mecánico</span>
+    <h3>TallerIA</h3>
+    <p class="lede">Un asistente que diagnostica el problema del auto, cotiza el servicio y agenda la cita — todo dentro del chat, sin llamadas ni WhatsApp manual.</p>
+    <ul class="feature-list">
+      <li style="--dot:#FF6B00"><span style="width:6px;height:6px;border-radius:50%;background:#FF6B00;display:inline-block;"></span>Diagnóstico conversacional de fallas</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#FF6B00;display:inline-block;"></span>Cotización y agendado automático</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#FF6B00;display:inline-block;"></span>Notificaciones push (Firebase)</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#FF6B00;display:inline-block;"></span>White-label: cambia de taller en segundos</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/MaykelCHC/taller_ia" target="_blank">Ver código →</a>
+    </div>
+  </div>
+  <div class="project-phone-wrap">
+    <div class="phone" style="--glow: rgba(255,107,0,0.35);">
+      <div class="screen">
+        <!-- Scene 1: Home -->
+        <div class="scene s1" style="background:#F6F7F9;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(255,107,0,0.15); color:#FF6B00;">🔧</div>
+            <div class="who"><b style="color:#17191C;">AutoCare Garage</b><small style="color:#70757D;">Hola, Maykel 👋</small></div>
+            <div class="bell" style="background:#fff; border:1px solid #E7E8EB;">🔔</div>
+          </div>
+          <div style="padding:0 14px;">
+            <div style="font-size:15px; font-weight:800; color:#17191C; margin-bottom:12px;">¿Qué necesita tu auto hoy?</div>
+            <div style="background:#FF6B00; border-radius:18px; padding:14px; color:#fff;">
+              <div style="font-size:11.5px; font-weight:700; margin-bottom:4px;">✨ Asistente Inteligente</div>
+              <div style="font-size:10.5px; opacity:.9;">Cuéntame qué le pasa a tu vehículo</div>
+            </div>
+            <div style="display:flex; gap:8px; margin-top:12px;">
+              <div class="card" style="background:#fff; border:1px solid #E7E8EB; flex:1;">
+                <div class="card-title" style="color:#17191C;">📅 Agendar</div>
+              </div>
+              <div class="card" style="background:#fff; border:1px solid #E7E8EB; flex:1;">
+                <div class="card-title" style="color:#17191C;">🚗 Vehículos</div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item active" style="color:#FF6B00;">🏠</div>
+            <div class="nav-item">🔧</div>
+            <div class="nav-item">✨</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+        <!-- Scene 2: Chat -->
+        <div class="scene s2" style="background:#F6F7F9;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(255,107,0,0.15); color:#FF6B00;">✨</div>
+            <div class="who"><b style="color:#17191C;">Asistente AutoCare</b></div>
+          </div>
+          <div class="chat-area">
+            <div class="bubble ai" style="background:#fff; border:1px solid #E7E8EB; color:#17191C; animation-delay:.2s;">Hola 👋 ¿Qué problema presenta tu vehículo?</div>
+            <div class="bubble me" style="background:#FF6B00; color:#fff; animation-delay:1.4s;">Cuando freno hace un ruido</div>
+            <div class="bubble ai" style="background:#fff; border:1px solid #E7E8EB; color:#17191C; animation-delay:2.6s;">Puede ser desgaste de balatas. La revisión cuesta $350. ¿Agendamos?</div>
+            <div class="quick-replies" style="animation-delay:3.8s;">
+              <div class="qr-btn" style="border-color:#FF6B00; color:#FF6B00;">Sí, agendar</div>
+            </div>
+            <div class="bubble ai" style="background:#24A865; color:#fff; animation-delay:5s; margin-top:8px;">✅ Cita confirmada — mañana 12:00 PM</div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item">🏠</div>
+            <div class="nav-item">🔧</div>
+            <div class="nav-item active" style="color:#FF6B00;">✨</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VETCARE ===================== -->
+<section class="project reverse" id="vetcare">
+  <div class="project-info">
+    <span class="tag" style="background:rgba(47,168,138,0.12); color:#2FA88A;">Veterinaria</span>
+    <h3>VetCare</h3>
+    <p class="lede">Perfil de mascota con historial de vacunas y un asistente que detecta qué necesita el paciente y agenda la revisión.</p>
+    <ul class="feature-list">
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#2FA88A;display:inline-block;"></span>Timeline de vacunas con alertas</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#2FA88A;display:inline-block;"></span>Ficha clínica por mascota</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#2FA88A;display:inline-block;"></span>Asistente que agenda vacunación</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#2FA88A;display:inline-block;"></span>Multiplataforma: iOS, Android, macOS, Windows</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/MaykelCHC/vetcare_app" target="_blank">Ver código →</a>
+    </div>
+  </div>
+  <div class="project-phone-wrap">
+    <div class="phone" style="--glow: rgba(47,168,138,0.35);">
+      <div class="screen">
+        <div class="scene s1" style="background:#F5F9F7;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(47,168,138,0.15); color:#2FA88A;">🐾</div>
+            <div class="who"><b style="color:#1C2320;">VetCare</b><small style="color:#6C7A75;">Hola, Maykel 👋</small></div>
+          </div>
+          <div style="padding:0 14px;">
+            <div class="card" style="background:#fff; border:1px solid #E3EAE6; margin-bottom:10px;">
+              <div style="display:flex; align-items:center; gap:10px;">
+                <div style="width:36px;height:36px;border-radius:50%;background:rgba(47,168,138,0.12); display:flex;align-items:center;justify-content:center; font-size:16px;">🐕</div>
+                <div>
+                  <div class="card-title" style="color:#1C2320;">Max</div>
+                  <div class="card-sub" style="color:#6C7A75;">Golden Retriever · 4 años</div>
+                </div>
+              </div>
+            </div>
+            <div style="background:#FBEEDA; border-radius:14px; padding:12px; display:flex; gap:8px; align-items:center;">
+              <span style="font-size:14px;">💉</span>
+              <span style="font-size:10.5px; color:#1C2320;">Vacuna programada en 10 días</span>
+            </div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item active" style="color:#2FA88A;">🏠</div>
+            <div class="nav-item">🐾</div>
+            <div class="nav-item">✨</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+        <div class="scene s2" style="background:#F5F9F7;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(47,168,138,0.15); color:#2FA88A;">✨</div>
+            <div class="who"><b style="color:#1C2320;">Asistente VetCare</b></div>
+          </div>
+          <div class="chat-area">
+            <div class="bubble ai" style="background:#fff; border:1px solid #E3EAE6; color:#1C2320; animation-delay:.2s;">Hola 👋 ¿Qué necesita tu mascota hoy?</div>
+            <div class="bubble me" style="background:#2FA88A; color:#fff; animation-delay:1.4s;">Vacuna para Max</div>
+            <div class="bubble ai" style="background:#fff; border:1px solid #E3EAE6; color:#1C2320; animation-delay:2.6s;">Le toca la vacuna múltiple (DHPPi), $380. ¿Agendamos?</div>
+            <div class="quick-replies" style="animation-delay:3.8s;">
+              <div class="qr-btn" style="border-color:#2FA88A; color:#2FA88A;">Sí, agendar</div>
+            </div>
+            <div class="bubble ai" style="background:#2FA88A; color:#fff; animation-delay:5s; margin-top:8px;">✅ Cita confirmada — jueves 10:00 AM</div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item">🏠</div>
+            <div class="nav-item">🐾</div>
+            <div class="nav-item active" style="color:#2FA88A;">✨</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SAVORY ===================== -->
+<section class="project" id="savory">
+  <div class="project-info">
+    <span class="tag" style="background:rgba(209,68,42,0.12); color:#D1442A;">Restaurante</span>
+    <h3>Savory</h3>
+    <p class="lede">Menú visual con carrito integrado y un asistente que recomienda platillos, arma el pedido y confirma la modalidad de entrega.</p>
+    <ul class="feature-list">
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#D1442A;display:inline-block;"></span>Menú por categorías con precios</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#D1442A;display:inline-block;"></span>Carrito con control de cantidades</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#D1442A;display:inline-block;"></span>En mesa, para llevar o a domicilio</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#D1442A;display:inline-block;"></span>Asistente que toma el pedido por chat</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/MaykelCHC/savory_app" target="_blank">Ver código →</a>
+    </div>
+  </div>
+  <div class="project-phone-wrap">
+    <div class="phone" style="--glow: rgba(209,68,42,0.35);">
+      <div class="screen">
+        <div class="scene s1" style="background:#FAF7F2;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(209,68,42,0.15); color:#D1442A;">🍽️</div>
+            <div class="who"><b style="color:#231A16;">Savory</b><small style="color:#8A7A70;">Hola, Maykel 👋</small></div>
+          </div>
+          <div style="padding:0 14px;">
+            <div style="font-size:14px; font-weight:800; color:#231A16; margin-bottom:10px;">¿Qué se te antoja hoy?</div>
+            <div style="display:flex; gap:8px;">
+              <div class="card" style="background:#fff; border:1px solid #EFE6DD; flex:1; text-align:center;">
+                <div style="font-size:26px;">🍔</div>
+                <div class="card-title" style="color:#231A16; font-size:10.5px;">Savory</div>
+                <div class="card-sub" style="color:#D1442A; font-weight:700;">$145</div>
+              </div>
+              <div class="card" style="background:#fff; border:1px solid #EFE6DD; flex:1; text-align:center;">
+                <div style="font-size:26px;">🍕</div>
+                <div class="card-title" style="color:#231A16; font-size:10.5px;">Pepperoni</div>
+                <div class="card-sub" style="color:#D1442A; font-weight:700;">$189</div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item active" style="color:#D1442A;">🏠</div>
+            <div class="nav-item">🍽️</div>
+            <div class="nav-item">✨</div>
+            <div class="nav-item">🧾</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+        <div class="scene s2" style="background:#FAF7F2;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(209,68,42,0.15); color:#D1442A;">✨</div>
+            <div class="who"><b style="color:#231A16;">Asistente Savory</b></div>
+          </div>
+          <div class="chat-area">
+            <div class="bubble ai" style="background:#fff; border:1px solid #EFE6DD; color:#231A16; animation-delay:.2s;">Hola 👋 ¿Qué se te antoja hoy?</div>
+            <div class="bubble me" style="background:#D1442A; color:#fff; animation-delay:1.4s;">Una hamburguesa</div>
+            <div class="bubble ai" style="background:#fff; border:1px solid #EFE6DD; color:#231A16; animation-delay:2.6s;">🍔 Hamburguesa Savory por $145. ¿La agrego?</div>
+            <div class="quick-replies" style="animation-delay:3.8s;">
+              <div class="qr-btn" style="border-color:#D1442A; color:#D1442A;">Sí, agrégala</div>
+            </div>
+            <div class="bubble ai" style="background:#2E7D5B; color:#fff; animation-delay:5s; margin-top:8px;">✅ Pedido confirmado — 25 min</div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item">🏠</div>
+            <div class="nav-item">🍽️</div>
+            <div class="nav-item active" style="color:#D1442A;">✨</div>
+            <div class="nav-item">🧾</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOMEFIND ===================== -->
+<section class="project reverse" id="homefind">
+  <div class="project-info">
+    <span class="tag" style="background:rgba(197,155,82,0.15); color:#C59B52;">Inmobiliaria</span>
+    <h3>HomeFind</h3>
+    <p class="lede">Catálogo de propiedades con ficha técnica y un asistente que califica al prospecto y agenda la visita al inmueble ideal.</p>
+    <ul class="feature-list">
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#C59B52;display:inline-block;"></span>Catálogo filtrable por tipo</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#C59B52;display:inline-block;"></span>Ficha técnica: recámaras, m², baños</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#C59B52;display:inline-block;"></span>Favoritos y agendado de visitas</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#C59B52;display:inline-block;"></span>Asistente que califica y recomienda</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/MaykelCHC/homefind_app" target="_blank">Ver código →</a>
+    </div>
+  </div>
+  <div class="project-phone-wrap">
+    <div class="phone" style="--glow: rgba(197,155,82,0.35);">
+      <div class="screen">
+        <div class="scene s1" style="background:#F7F6F3;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(197,155,82,0.18); color:#C59B52;">🏡</div>
+            <div class="who"><b style="color:#1B2430;">HomeFind</b><small style="color:#767E88;">Hola, Maykel 👋</small></div>
+          </div>
+          <div style="padding:0 14px;">
+            <div class="card" style="background:#fff; border:1px solid #E7E4DD;">
+              <div style="font-size:36px; text-align:center;">🏡</div>
+              <div class="card-title" style="color:#1B2430;">Casa moderna en Zapopan</div>
+              <div class="card-sub" style="color:#767E88;">Puerta de Hierro</div>
+              <div style="font-size:14px; font-weight:800; color:#C59B52; margin-top:4px;">$4,200,000</div>
+            </div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item active" style="color:#1B2430;">🏠</div>
+            <div class="nav-item">🏡</div>
+            <div class="nav-item">✨</div>
+            <div class="nav-item">❤️</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+        <div class="scene s2" style="background:#F7F6F3;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(197,155,82,0.18); color:#C59B52;">✨</div>
+            <div class="who"><b style="color:#1B2430;">Asistente HomeFind</b></div>
+          </div>
+          <div class="chat-area">
+            <div class="bubble ai" style="background:#fff; border:1px solid #E7E4DD; color:#1B2430; animation-delay:.2s;">Hola 👋 ¿Qué tipo de propiedad buscas?</div>
+            <div class="bubble me" style="background:#1B2430; color:#fff; animation-delay:1.4s;">Casa en Zapopan</div>
+            <div class="bubble ai" style="background:#fff; border:1px solid #E7E4DD; color:#1B2430; animation-delay:2.6s;">Encontré 3 opciones. Te recomiendo "Casa moderna en Zapopan", $4.2M.</div>
+            <div class="quick-replies" style="animation-delay:3.8s;">
+              <div class="qr-btn" style="border-color:#C59B52; color:#C59B52;">Agendar visita</div>
+            </div>
+            <div class="bubble ai" style="background:#2E8B57; color:#fff; animation-delay:5s; margin-top:8px;">✅ Visita agendada</div>
+          </div>
+          <div class="bottom-nav" style="background:#fff;">
+            <div class="nav-item">🏠</div>
+            <div class="nav-item">🏡</div>
+            <div class="nav-item active" style="color:#1B2430;">✨</div>
+            <div class="nav-item">❤️</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FLEXFIT ===================== -->
+<section class="project" id="flexfit">
+  <div class="project-info">
+    <span class="tag" style="background:rgba(207,255,4,0.15); color:#CFFF04;">Gimnasio</span>
+    <h3>FlexFit</h3>
+    <p class="lede">Rutinas con checklist y progreso visual, clases grupales con cupo, y un coach IA que arma entrenamientos personalizados.</p>
+    <ul class="feature-list">
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#CFFF04;display:inline-block;"></span>Checklist de ejercicios con progreso</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#CFFF04;display:inline-block;"></span>Reserva de clases grupales</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#CFFF04;display:inline-block;"></span>Coach IA que arma rutinas al momento</li>
+      <li><span style="width:6px;height:6px;border-radius:50%;background:#CFFF04;display:inline-block;"></span>Interfaz dark mode energética</li>
+    </ul>
+    <div class="project-links">
+      <a href="https://github.com/MaykelCHC/flexfit_app" target="_blank">Ver código →</a>
+    </div>
+  </div>
+  <div class="project-phone-wrap">
+    <div class="phone" style="--glow: rgba(207,255,4,0.35);">
+      <div class="screen">
+        <div class="scene s1" style="background:#121212;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(207,255,4,0.16); color:#CFFF04;">🏋️</div>
+            <div class="who"><b style="color:#F5F5F5;">FlexFit</b><small style="color:#9A9A9A;">Hola, Maykel 💪</small></div>
+          </div>
+          <div style="padding:0 14px;">
+            <div class="card" style="background:#1D1D1D; border:1px solid #2C2C2C;">
+              <div style="display:flex; align-items:center; gap:12px;">
+                <div style="width:44px;height:44px;border-radius:50%; border:4px solid #CFFF04; display:flex;align-items:center;justify-content:center; font-size:10px; font-weight:800; color:#CFFF04;">50%</div>
+                <div>
+                  <div class="card-title" style="color:#F5F5F5;">Empuje (Pecho)</div>
+                  <div class="card-sub" style="color:#9A9A9A;">2/4 ejercicios · 50 min</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-nav" style="background:#1D1D1D; border-top-color:#2C2C2C;">
+            <div class="nav-item active" style="color:#CFFF04;">🏠</div>
+            <div class="nav-item">🏋️</div>
+            <div class="nav-item">⚡</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+        <div class="scene s2" style="background:#121212;">
+          <div class="app-header">
+            <div class="avatar-dot" style="background:rgba(207,255,4,0.16); color:#CFFF04;">⚡</div>
+            <div class="who"><b style="color:#F5F5F5;">Coach IA</b></div>
+          </div>
+          <div class="chat-area">
+            <div class="bubble ai" style="background:#1D1D1D; border:1px solid #2C2C2C; color:#F5F5F5; animation-delay:.2s;">Hola 👋 ¿Qué quieres entrenar hoy?</div>
+            <div class="bubble me" style="background:#CFFF04; color:#000; font-weight:600; animation-delay:1.4s;">Pierna</div>
+            <div class="bubble ai" style="background:#1D1D1D; border:1px solid #2C2C2C; color:#F5F5F5; animation-delay:2.6s;">💪 Rutina de pierna lista: 4 ejercicios, ~50 min. ¿La agrego?</div>
+            <div class="quick-replies" style="animation-delay:3.8s;">
+              <div class="qr-btn" style="border-color:#CFFF04; color:#CFFF04;">Sí, agrégala</div>
+            </div>
+            <div class="bubble ai" style="background:#4ADE80; color:#000; font-weight:600; animation-delay:5s; margin-top:8px;">✅ Rutina agregada a tu plan</div>
+          </div>
+          <div class="bottom-nav" style="background:#1D1D1D; border-top-color:#2C2C2C;">
+            <div class="nav-item">🏠</div>
+            <div class="nav-item">🏋️</div>
+            <div class="nav-item active" style="color:#CFFF04;">⚡</div>
+            <div class="nav-item">📅</div>
+            <div class="nav-item">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="brand">Maykel Chapman <span style="color:var(--accent);">· Nexora Labs</span></span>
+  <p>¿Quieres una app así para tu negocio?</p>
+  <p><a href="mailto:maykelchapmancardoso@gmail.com">maykelchapmancardoso@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
